@@ -9,10 +9,9 @@ void setup() {
   size(960, 540);
   background(255);
   frameRate(30);
-  delay(5000);
 
-  test = loadImage("test4.jpg");
-  filtered = loadImage("test4.jpg");
+  test = loadImage("test images/test4.jpg");
+  filtered = loadImage("test images/test4.jpg");
   dimx = test.width;
   dimy = test.height;
   result = createImage(dimx, dimy, ARGB);
